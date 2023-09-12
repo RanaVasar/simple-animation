@@ -1,0 +1,26 @@
+* { margin:0; padding:0; }
+body { font-family: sans-serif;} 
+#content { margin: 50px; } 
+a { text-decoration: none;
+    background-color: aqua;
+    padding: 30px;
+    border-radius: 15%;
+} 
+p {
+    padding-left: 20px;
+} 
+ 
+.expandable {
+  background: #000;
+  overflow: hidden;
+  color: #fff;   
+  line-height: 50px;
+
+  transition: all .5s ease-in-out;
+  height: 0;
+ }
+ 
+ .expandable:target {
+  height: auto;
+  margin-top: 50px;
+}
